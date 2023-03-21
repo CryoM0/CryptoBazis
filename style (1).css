@@ -1,0 +1,68 @@
+.topnav {
+
+    overflow: hidden;
+  }
+  
+
+  .topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 220px;
+    text-decoration: none;
+    font-size: 27px;
+    font-weight: bolder;
+  }
+
+  .topnav a:hover {
+
+    color: white;
+    border-bottom: 4px solid orange;
+  }
+  
+
+
+  .vertical-menu {
+    width: 230px;
+    height: 120px;
+    position: absolute;
+    right: 0;
+    font-size: 20px;
+  }
+  
+  .vertical-menu a {
+ 
+    color: white; 
+    display: block; 
+    padding: 15px; 
+    text-decoration: none; 
+  }
+  
+  .vertical-menu a:hover {
+    border-bottom: 4px solid orange;
+  }
+  
+  .vertical-menu a.active {
+   
+    color: white;
+  }
+div.kedvezmeny {
+    position: absolute;
+    left: 100px;
+    width: 400px;
+    height: 120px;
+    border: 6px solid orange;
+    border-top: 10px solid orange;
+    border-bottom: 10px solid orange;
+    color:white;
+    font-size: 20px;
+
+  } 
+
+div.alsofelirat{
+    color: white;
+width: 600px;
+height: 300px;
+font-size: 30px;
+
+}
